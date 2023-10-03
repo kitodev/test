@@ -1,15 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>IAOM Teszt feladat</title>
-
-    <link rel="stylesheet" href="./build/app.css">
-    <script src="./build/runtime.js"></script>
-    <script src="./build/app.js"></script>
-    <script src="./build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js.js"></script>
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mainStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <h4>Ne hagyja, hogy egy bűnügyi vád tönkre tegye az életét!</h4>
+      <h2>A büntetőeljárás szakaszai</h2>
+      <p>
+        A büntetőeljárás három fő szakaszból áll, mely egy nyomozati szakasszal
+        kezdődik, ezt követi az ügyészi szakasz és a bírósági szakasszal
+        végződik. Ismerje meg ezeket. Mi minden szakaszban tudunk segítséget
+        nyújtani!
+      </p>
+    </section>
+    <section id="main">
+      <div class="circleContainer"></div>
+      <div class="processOfRoute">
+        <div class="first">
+          <i class="fa-solid fa-arrow-right"></i>
+          <p>Nyomozati szakasz</p>
+        </div>
+        <div class="second">
+          <i class="fa-solid fa-arrow-right"></i>
+          <p>Ügyészi szakasz</p>
+        </div>
+        <div class="third">
+          <i class="fa-solid fa-arrow-right"></i>
+          <p>Bírósági szakasz</p>
+        </div>
+      </div>
+      <div class="currentDescription">
+        <i class="fa-solid fa-arrow-left left"></i>
+        <div class="descCont">
+          <h5 class="title">Örizetbe vétel</h5>
+          <p class="desc">
+            A tárgyalást megelőző vagy a felfedezés szakaszában az Ön ügyvédje
+            (link) információt cserél az ellenfél ügyvédjével. Megbeszéljük a
+            tárgyalás során felhasználni kívánt információkat és bizonyítékokat
+            (link). Egyes esetekben tárgyalás előtti indítványt (link) lehet
+            benyújtani, amely bizonyos vádakat elutasíthat, vagy bizonyos
+            bizonyítékokat kihagyhat a tárgyalásból
+          </p>
+          <h6>további részletek <i class="fa-solid fa-arrow-right"></i></h6>
+        </div>
+        <i class="fa-solid fa-arrow-right right"></i>
+      </div>
+    </section>
+    <section id="footer">
+      <h4>
+        az ügyvédi stratégia kulcskérdés, döntően meghatározza az ügy
+        kimenetelét!
+      </h4>
+      <h2>
+        Készen áll arra, hogy megkezdjük a védekezést? Lépjen velünk
+        kapcsolatba!
+      </h2>
+      <div id="buttonContainer">
+        <button>KONZULTÁCIÓ</button>
+        <button id="makeCall">
+          <i class="fa-solid fa-phone"></i>+36 70 111 2233
+        </button>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
 </html>

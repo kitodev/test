@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#header {
+  height: 30vh;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#header h4 {
+  color: #1e7b6f;
+  text-align: center;
+  /* _Components/Szekció cím feletti piros/360 */
+  font-family: Inter;
+  font-size: 1.3vh;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 19.5px */
+  letter-spacing: 2.08px;
+  text-transform: uppercase;
+  margin: 2vh 0;
+}
+
+#header h2 {
+  color: #212529;
+  text-align: center;
+  /* _Components/Section title/360 */
+  font-family: Merriweather;
+  font-size: 2.8vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 42px */
+  font-variant: small-caps;
+  margin: 2vh 0;
+}
+#header p {
+  color: #343a40;
+  text-align: center;
+  /* Body/360/Small */
+  font-family: Inter;
+  font-size: 1.5vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 19.5px */
+  margin: 1vh 0;
+  width: 95%;
+}
+
+#footer {
+  width: 90%;
+  height: 20vh;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 0 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#footer h4 {
+  color: #1e7b6f;
+  text-align: center;
+  /* _Components/Szekció cím feletti piros/360 */
+  font-family: Inter;
+  font-size: 1.3vh;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 19.5px */
+  letter-spacing: 2.08px;
+  text-transform: uppercase;
+  margin: 1vh 0;
+}
+#footer h2 {
+  color: #212529;
+  text-align: center;
+  /* _Components/Kisebb szekció cím/360 */
+  font-family: Merriweather;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  font-variant: small-caps;
+  width: 90%;
+  margin: 3vh auto;
+}
+
+#footer #buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer #buttonContainer button {
+  border-radius: 4px;
+  border: 1px solid #1e7b6f;
+  color: #1e7b6f;
+  /* Capital bold közöpes */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  text-transform: uppercase;
+  padding: 1vh 2vw;
+  margin: 0 1vw;
+}
+
+#footer #buttonContainer #makeCall {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1e7b6f;
+  color: white;
+}
+
+#footer #buttonContainer #makeCall i {
+  margin: 0 1.5vw 0 0;
+}

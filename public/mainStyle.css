@@ -1,0 +1,89 @@
+#main {
+  height: 50vh;
+  width: 100%;
+}
+
+#main .circleContainer {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main .circleContainer .circle {
+  width: 130.524px;
+  height: 130.524px;
+  flex-shrink: 0;
+  fill: #0c1e2b;
+  filter: drop-shadow(0px 16px 48px rgba(0, 0, 0, 0.17));
+  background-color: #0c1e2b;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  /* Body/1400/Bold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  margin: 0 1.5vw;
+}
+
+#main .processOfRoute {
+  width: 60%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#main .processOfRoute div {
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main .processOfRoute div i {
+  margin-right: 3vw;
+  transform: scaleX(2);
+}
+#main .processOfRoute div p {
+  margin: 0;
+}
+
+#main .processOfRoute .first i {
+  color: #3582bd;
+}
+
+#main .processOfRoute .second i {
+  color: #fcd747;
+}
+
+#main .processOfRoute .third i {
+  color: #fc5926;
+}
+
+#main .currentDescription {
+  height: 55%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#main .currentDescription .descCont {
+  height: 90%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 10px 1px #000;
+  padding: 0 1vw;
+  border-bottom: 5px #fc5926 solid;
+}
